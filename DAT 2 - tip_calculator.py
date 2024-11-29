@@ -13,4 +13,6 @@ split = input("How many people to split the bill? ")
 # Calculation
 total_tip = float(total_bill) * (int(tip)/100)
 each_pay = round((float(total_bill) + total_tip) /int(split), 2)
+
+# Print the output
 print(f"Each person should pay: ${each_pay}")
